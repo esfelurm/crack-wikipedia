@@ -7,7 +7,7 @@ except:
 	os.system("pip install requests && colorama && bs4")
 rd, gn, lgn, yw, lrd, be, pe = '\033[00;31m', '\033[00;32m', '\033[01;32m', '\033[01;33m', '\033[01;31m', '\033[00;34m', '\033[01;35m'
 cn = '\033[00;36m'
-if platform.uname() == 'windows':
+if 'Windows' in platform.uname() or 'windows' in platform.uname():
 	colorama.init()
 else:
     pass
